@@ -59,7 +59,6 @@ const App = () => {
     let newVotes = [...votes]; 
     newVotes[selected] += 1;
     let highestNum = Math.max(...newVotes);
-    console.log(highestNum);
     let index = newVotes.indexOf(highestNum);
     setPopular(index)
     
